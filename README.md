@@ -1,6 +1,8 @@
 # Kafka-cluster-docker-installation
 Use docker compose to install the kafka cluster with UI tools: CMAK and Kafdrop
 
+All the kafka command files are under /opt/kafka_2.12-2.4.1/bin
+
 **Step1.** Execute the compose file
 
 **Step2.** Access the CMAK Page http://localhost:9000 and add a new cluster
