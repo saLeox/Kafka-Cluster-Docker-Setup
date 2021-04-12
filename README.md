@@ -114,5 +114,4 @@ All the kafka command files are under /opt/kafka_2.12-2.4.1/bin
    less than the number of partitions.
 
  - Inside the consumer group, one consumer can consume the msg from more
-   than one partitions. Msg from one partition can be only consumed by  
-   one consumer.
+   than one partitions. Msg from one partition can be only consumed by one consumer.
