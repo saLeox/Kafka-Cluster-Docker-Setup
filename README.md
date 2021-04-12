@@ -55,7 +55,9 @@ At the same time, from outside, like producer or consumer, which need to access 
 
 **Access kafdrop at page http://localhost:9001**
 View all necessary info in one single page.
+
 ![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412165805.png)
+
 
 ## Step 4. Kafka CLI
 
