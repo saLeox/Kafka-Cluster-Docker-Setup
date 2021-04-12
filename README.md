@@ -102,16 +102,10 @@ All the kafka command files are under /opt/kafka_2.12-2.4.1/bin
 
 ![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412170807.png)
 
- - Broker and Bootstrap server in kafka consule CLI are broker in
-   nature.
+ - Broker and Bootstrap server in kafka consule CLI are broker in nature.
    
- - If there is no specific key given by producer, the broker will   
-   distribute the request to random partition based on round robin   
-   algorithm. Otherwise, it will send to the partition last request   
-   went.
+ - If there is no specific key given by producer, the broker will distribute the request to random partition based on round robin algorithm. Otherwise, it will send to the partition last request went.
 
- - By rule, the number of consumer (group)s that can receive msg can be 
-   less than the number of partitions.
+ - By rule, the number of consumer (group)s that can receive msg can be less than the number of partitions.
 
- - Inside the consumer group, one consumer can consume the msg from more
-   than one partitions. Msg from one partition can be only consumed by one consumer.
+ - Inside the consumer group, one consumer can consume the msg from more than one partitions. Msg from one partition can be only consumed by one consumer.
