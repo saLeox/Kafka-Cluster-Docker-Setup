@@ -31,10 +31,12 @@ Here is zookeeper:2181, but localhost:2181. Otherwise, will get this issue
 
 **Useful features:**
 
-**Metrics and consumer info**
+ 1. **Metrics and consumer info**
+
 <div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164239.png" width="90%"/></div>
 
-**Partitions distribution info**
+ 2. **Partitions distribution info**
+
 <div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164827.png" width="80%"/></div>
 
 ## **Step3**. Configure and use Kafdrop
