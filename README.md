@@ -1,3 +1,4 @@
+
 # Kafka-cluster-docker-installation & Experience
 Use docker compose to install the kafka cluster with UI tools: CMAK and Kafdrop
 
@@ -18,7 +19,7 @@ Access the CMAK Page at http://localhost:9000, and choose to add a  new cluster.
 **Notice:**
 **Cluster Zookeeper Hosts** should be the IP address that CMAK image can access inside the Docker. 
 
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412162622.png)
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412162622.png" width="70%"/>
 
 Here is zookeeper:2181, but localhost:2181. Otherwise, will get this issue
 
@@ -26,17 +27,15 @@ Here is zookeeper:2181, but localhost:2181. Otherwise, will get this issue
 
 
 **Enable Metrics Mornitoring**
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164058.png)
-
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164058.png" width="70%"/>
 
 **Useful features:**
 
 **Metrics and consumer info**
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164239.png)
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164239.png" width="90%"/>
 
 **Partitions distribution info**
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164827.png)
-
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412164827.png" width="80%"/>
 
 ## **Step3**. Configure and use Kafdrop
 
@@ -56,8 +55,7 @@ At the same time, from outside, like producer or consumer, which need to access 
 **Access kafdrop at page http://localhost:9001**
 View all necessary info in one single page.
 
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412165805.png)
-
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412165805.png" width="90%"/>
 
 ## Step 4. Kafka CLI
 
@@ -101,8 +99,7 @@ All the kafka command files are under /opt/kafka_2.12-2.4.1/bin
 	kafka-console-consumer.sh --bootstrap-server kafka3:9093 --topic first_topic --group app1  --from-beginning
 
 ## Insight about Kafka
-
-![](https://raw.githubusercontent.com/saLeox/photoHub/main/20210412170807.png)
+<div align=center><img src="https://raw.githubusercontent.com/saLeox/photoHub/main/20210412170807.png" width="80%"/>
 
  - Broker and Bootstrap server in kafka consule CLI are broker in nature.
    
